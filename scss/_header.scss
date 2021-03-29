@@ -1,0 +1,29 @@
+header {
+    background-image: linear-gradient(45deg, $colAzul, $colFucsia);
+    background-size: cover;
+    // background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    & h1 {
+      font-family: $fontTitulos;
+      color: $colBlanco;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+      font-size: $fontXL;
+      font-weight: $weightXL;
+    }
+    & p {
+      Font-family: $fontTextos;
+      font-weight: lighter;  
+      font-size: 22px;
+      text-shadow: 0px 0px 5px rgba(0,0,0,0.8);
+      color: #fcf7f8;
+      opacity: .7;
+      padding-bottom: 30px;
+     }
+     & img {
+       padding: 0 4rem;
+        border-radius: 50%;
+     }
+  }
+  

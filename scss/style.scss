@@ -1,0 +1,115 @@
+/* VARIABLES GLOBALES */
+
+// Colores
+$colAzul: #3772FF;
+$colVioleta: #F038FF; 
+$colFucsia: #EF709D;
+$colAmarillo: #E2EF70;
+$colCeleste: #70E4EF;
+$colNegro: black;
+$colBlanco: white;
+
+//Grises
+$tono: 1;
+
+$colGrisOscuro: rgba(0, 0, 0, $tono*0.8);
+$colGrisMedio: rgba(0, 0, 0, $tono*0.5);
+$colGrisClaro: rgba(0, 0, 0, $tono*0.2);
+
+// Fonts 
+
+$fontTitulos: 'Nunito', sans-serif;
+
+$fontTextos: 'Raleway', sans-serif;
+
+$fontBasica: 1rem;
+
+$fontXS: $fontBasica*0.9;
+$fontS: $fontBasica;
+$fontM: $fontBasica*1.5;
+$fontL: $fontBasica*2;
+$fontXL: $fontBasica*5;
+
+$weightBasica: 100;
+
+$weightXS: $weightBasica;
+$weightS: $weightBasica*2;
+$weightM: $weightBasica*4;
+$weightL: $weightBasica*6;
+$weightXL: $weightBasica*8;
+
+
+// Sombras
+$sombra1: 5px 5px 8px 1px rgba(0, 0, 0, 0.1);
+$sombra2: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+$sombra3: 0px 0px 24px -5px rgba(0,0,0,0.5);
+
+// Imports
+
+//secciones
+@import "header";
+@import "footer";
+
+//Elementos
+@import "elementos/contactForm";
+
+
+
+/* Valores Generales */
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    font-family: $fontTextos;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: $colBlanco; 
+    margin: 0px;
+    padding: 0px;
+}
+h3 {
+    position: relative;
+    font-family: $fontTitulos;
+    font-size: $fontL;
+    font-weight: $weightM;
+    text-align: center;
+    z-index: 1;
+}
+h4 {
+    position: relative;
+    font-family: $fontTitulos;
+    font-size: $fontL;
+    font-weight: $weightS;
+    text-align: center;
+    z-index: 1;
+}
+h5 {
+    font-family: $fontTitulos; 
+    font-size: $fontM;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  

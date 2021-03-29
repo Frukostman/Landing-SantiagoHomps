@@ -1,62 +1,73 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
 
+	<!-- METADATA -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<!-- Primary Meta Tags -->
-	
 	<meta name="title" content="Santiago Homps">
 	<meta name="description" content="Arquitectura  |  Diseño  |  Cocina  |  Arte">
-
+	
+	<!-- SEO -->
+    <meta name="description" content="Portfolio de trabajo">
+    <meta name="keywords" content="trabajo empleo codigo html css sass javascript desarollo web front-end portfolio arte arquitectura cocina">
+    <meta name="author" content="Santiago Homps">
+	
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://www.tomasborgstrom.com.ar/">
+	<meta property="og:url" content="https://ar.linkedin.com/in/santiago-homps">
 	<meta property="og:title" content="Santiago Homps">
 	<meta property="og:description" content="Arquitectura  |  Diseño  |  Cocina  |  Arte">
 	<meta property="og:image" content="images/arquitectura/titulos (2).png">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="https://www.tomasborgstrom.com.ar/">
+	<meta property="twitter:url" content="https://ar.linkedin.com/in/santiago-homps">
 	<meta property="twitter:title" content="Santiago Homps">
 	<meta property="twitter:description" content="Arquitectura  |  Diseño  |  Cocina  |  Arte">
 	<meta property="twitter:image" content="images/arquitectura/titulos (2).png">
 
-	<!-- METADATA -->
-
-	<meta charset="utf-8">
-
 	<title>Santiago Homps</title>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+	<!-- FONTAWESOME -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">	
+	<!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;900&family=Raleway:wght@100;300;400;600;900&family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
-
-<!-- STYLE -->
-
-	<link href='style.css' rel='stylesheet'>
+	<!-- BOOTSTRAPP -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<!-- STYLE -->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <!-- CONTENIDO -->
 
-<!-- BANNER -->
+<!-- header -->
 
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url(images/imgbanner.png);">
+<header>
   <div class="container">
-    <h1>Santiago <strong>HOMPS</strong></h1>
-    <p>Arquitectura &nbsp;&nbsp;| &nbsp;&nbsp;Diseño &nbsp;&nbsp;| &nbsp;&nbsp;Cocina &nbsp;&nbsp;| &nbsp;&nbsp;Arte</p>
-    <a class="btn btn-flat" href="https://www.behance.net/santiagohomps" target="_blank">¡Conocé más!</a>
+	  <div class="row">
+		  <div class="col-12 col-md-6">
+			  <h1>SANTIAGO <span>HOMPS</span></h1>
+			  <p>Front-end & MORE!</p>
+			  <!-- <a class="btn btn-flat" href="https://www.behance.net/santiagohomps" target="_blank">¡Conocé más!</a> -->
+			  <a class="btn btn-primary" href="./resources/CV - Santiago Homps 2021.pdf" target="_blank" rel="noopener noreferrer">Descargar CV</a>
+		  </div>
+		  <div class="col-12 col-md-6">
+			  <img class="img-fluid" src="./images/avatar.JPG" alt="">
+		  </div>
+	  </div>
   </div>
-</div>
+</header>
 
-<!-- DIVIDER -->
 
-<div class="titulo container-fluid p-0 mt-1" style="text-align:center">
-	<p>Algunos de mis trabajos</p>
-</div>
+<main>
+
+<!-- SOBRE MI -->
 
 <!-- CARDS -->
 
@@ -350,19 +361,21 @@
         </div>
 </form>
 
+</main>
+
 <!-- FOOTER -->
 
-<div class="footer">
+<footer class="footer">
   <div class="footer-links">
   	<a href="https://www.behance.net/santiagohomps" target="_blank"><i class="fab fa-behance"></i></a>
-    <a href="https://www.instagram.com/tomas_borgstrom/" target="blank"><i class="fab fa-instagram"></i></a>
+    <!-- <a href="https://www.instagram.com/tomas_borgstrom/" target="blank"><i class="fab fa-instagram"></i></a> -->
     <a href="https://ar.linkedin.com/in/santiago-homps" target="blank"><i class="fab fa-linkedin"></i></a>
     <a href="https://github.com/Frukostman" target="blank"><i class="fab fa-github"></i></a>
   </div>
   <div class="footer-copyright pt-3">
   	<p>Powered by: <i class="fas fa-rocket"></i> <strong>Le Wagon</strong></p>
    </div>
-</div>
+</footer>
 
 <!-- JS & BOOTSTRAP -->
 

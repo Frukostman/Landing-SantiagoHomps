@@ -1,0 +1,30 @@
+.footer {
+    background: #343633;
+    font-family: raleway;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 50px;
+    color: #f4f4f4;
+    &-links {
+      display: flex;
+      align-items: center;
+      & a {
+        color: #f4f4f4;
+        opacity: 0.3;
+        text-decoration: none;
+        font-size: 24px;
+        padding: 0px 10px;
+      }
+      & a:hover {
+        opacity: 1;
+      }
+    }
+    &-copyright p {
+      color: #6D6F6D
+    }
+  }
+  
+  
+  

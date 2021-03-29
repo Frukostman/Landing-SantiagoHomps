@@ -1,0 +1,91 @@
+/* VARIABLES GLOBALES */
+header {
+  background-image: linear-gradient(45deg, #3772FF, #EF709D);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center; }
+  header h1 {
+    font-family: "Nunito", sans-serif;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    font-size: 5rem;
+    font-weight: 800; }
+  header p {
+    Font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+    color: #fcf7f8;
+    opacity: .7;
+    padding-bottom: 30px; }
+  header img {
+    padding: 0 4rem;
+    border-radius: 50%; }
+
+.footer {
+  background: #343633;
+  font-family: raleway;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: #f4f4f4; }
+  .footer-links {
+    display: flex;
+    align-items: center; }
+    .footer-links a {
+      color: #f4f4f4;
+      opacity: 0.3;
+      text-decoration: none;
+      font-size: 24px;
+      padding: 0px 10px; }
+    .footer-links a:hover {
+      opacity: 1; }
+  .footer-copyright p {
+    color: #6D6F6D; }
+
+.contact-form {
+  font-family: montserrat;
+  padding: 50px 120px; }
+
+/* Valores Generales */
+html {
+  scroll-behavior: smooth; }
+
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  background-color: white;
+  margin: 0px;
+  padding: 0px; }
+
+h3 {
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  z-index: 1; }
+
+h4 {
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: center;
+  z-index: 1; }
+
+h5 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }

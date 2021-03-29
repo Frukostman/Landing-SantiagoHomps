@@ -1,0 +1,25 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "Portfolio personal",
+  "main": "validation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frukostman/Landing-SantiagoHomps.git"
+  },
+  "author": "Santiago Homps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frukostman/Landing-SantiagoHomps/issues"
+  },
+  "homepage": "https://github.com/Frukostman/Landing-SantiagoHomps#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
